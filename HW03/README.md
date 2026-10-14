@@ -85,10 +85,10 @@ oc delete –all service (OR route OR configmap OR deployment OR etc..)
 
 oc get pods (OR routes OR deployments OR etc..)
 
-docker run --rm -it --name toyota-data-feeder -e MQTT_URL=??? -e MQTT_PORT=???? -e CLIENT_ID=<student_id> toyota-data-feeder:0.1
+docker run --rm -it --name toyota-data-feeder -e MQTT_URL=??? -e MQTT_PORT=443 -e CLIENT_ID=<student_id> toyota-data-feeder:0.1
 
 
-mosquitto_sub -t '<student_id>/#' --cafile ca.crt --insecure --host ??? --port ??? -v
+mosquitto_sub -t '<student_id>/#' --cafile ca.crt --insecure --host ??? --port 443 -v
 ```
 
 Some useful links:
