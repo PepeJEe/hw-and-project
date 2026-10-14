@@ -63,6 +63,8 @@ For HW03 and HW04 you will need to work with Kubernetes. We can use managed Kube
       2. Go to [my.csc.fi/projects](https://my.csc.fi/projects)
       3. There is a number associated with the CSC project you created earlier in the previous step, use this number for creating the Rahti project (the number is like 200XXXX)
    6. Click the blue button `create` to create the Rahti project
+
+<!--
 4. Add TAs to your Rahti project:
    1. In your Rahti project page, click on the top-left sandwich button to see the menu
    2. Click on the `Administrator` button and choose `Developer`
@@ -73,6 +75,7 @@ For HW03 and HW04 you will need to work with Kubernetes. We can use managed Kube
    7. Select `User` for the subject section
    8. Enter `bakhshiz` in the name section and choose the `Admin` role
    9. Click on the `Save` button at the bottom of the page
+-->
 
 ## Download Required CLI Tools
 
