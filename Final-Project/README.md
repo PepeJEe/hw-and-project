@@ -18,6 +18,10 @@ Things to consider when preparing the final project:
   - Explain what is the project all about and what you have done
   - Run the commands step by step, and show that the whole implementation is working seamlessly
   - You could use your office365 (or any other online place like YouTube etc.) for storing the recorded video and share its link in here
+
+> [!WARNING]
+> Note the recorded video should be at most 10 mins. Longer videos cause penalization. Additionally, lacking to provide the video exactly as described above will also cause penalization.
+
 - Take a look at the [arch.png](./arch.png) file and replace it with the architecture of your project that shows the general idea of the project and how components interact with each other
 
 Run the following commands in your terminal in the [Final-Project/](.) directory to deliver the final project:
