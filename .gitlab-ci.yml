@@ -3,3 +3,4 @@ include:
     ref: main
     file: '/.gitlab-ci.yml'
       #    token: $CI_JOB_TOKEN
+# NOTE any modification to this file is prohibited!
