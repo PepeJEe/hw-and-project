@@ -15,8 +15,9 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir paho-mqtt==1.6.1
+
+COPY feeder.py toyota_data.csv ca.crt ./
 
 ENV PYTHONUNBUFFERED=1
 
